@@ -8,14 +8,19 @@
 
 # Scrapy 使用笔记
 
-1. 工作管道
-2. XPath
-3. 文件读写
-4. 数据存储
-5. 文档阅读
-6. Debug
+1. Python 环境搭建
+2. 工作管理
+3. XPath
+4. 文件读写
+5. 数据存储
+6. 文档阅读
+7. VSCode
 
-## 0x06 Debug
+## 0x06 VSCode
+
+- 环境
+- 自动补全
+- Debug
 
 启动 venv 环境
 ```shell
