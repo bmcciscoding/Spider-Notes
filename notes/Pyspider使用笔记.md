@@ -44,5 +44,5 @@ source bin/activate
       ],
       "console": "integratedTerminal"
     }
-  ]
+  ]sc
 ```

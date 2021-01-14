@@ -1,4 +1,4 @@
-#!/Users/QP/Workspace/Spider-Notes/scrapy/bin/python3
+#!/Users/qiupeng/QP/Spider-Notes/scrapy/bin/python3
 
 import sys
 import json

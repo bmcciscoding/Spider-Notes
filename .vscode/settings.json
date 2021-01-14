@@ -1,5 +1,14 @@
 {
   "git.ignoreLimitWarning": true,
-  "python.pythonPath": "/Users/QP/Workspace/Spider-Notes/scrapy/bin/python3",
-  "python.formatting.provider": "yapf"
+  "python.pythonPath": "/Users/qiupeng/QP/Spider-Notes/scrapy/bin/python3",
+  "python.formatting.provider": "yapf",
+  "commentTranslate.targetLanguage": "zh-CN",
+  "python.analysis.extraPaths": [
+    "../scrapy/bin/scrapy",
+    "../scrapy/movie/movie/"
+  ],
+  "python.autoComplete.extraPaths": [
+    "../scrapy/bin/scrapy",
+    "../scrapy/movie/movie/"
+  ]
 }

@@ -1,15 +1,17 @@
 import scrapy
 
+from movie.items import MovieItem
+
+
 class ImdbSpider(scrapy.Spider):
     name = 'imdb'
-    start_urls = ['https://www.dytt8.net/index.htm/']
+    start_urls = ['https://www.dytt8.net/index.htm']
 
     def parse(self, response):
-        body_filename = 'body.html'
-        open(body_filename, 'wb').write(response.body)
-
-
-
-def funcname(parameter_list):
-    x
-    pass
+        # list = response.xpath('//a').extract()
+        sel_list = response.xpath('//a')
+        for sel in sel_list:
+            item = MovieItem()
+            item['link'] = sel.xpath('@href').extract()
+            item['name'] = sel.xpath('text()').extract()
+            yield item

@@ -1,4 +1,4 @@
-#!/Users/QP/Workspace/Spider-Notes/scrapy/bin/python3
+#!/Users/qiupeng/QP/Spider-Notes/scrapy/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
